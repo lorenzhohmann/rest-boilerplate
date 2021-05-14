@@ -1,0 +1,28 @@
+{
+  "name": "rest-template",
+  "version": "1.0.0",
+  "description": "Template for Node.js RestAPIS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzhohmann/rest-template.git"
+  },
+  "author": "LH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzhohmann/rest-template/issues"
+  },
+  "homepage": "https://github.com/lorenzhohmann/rest-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
