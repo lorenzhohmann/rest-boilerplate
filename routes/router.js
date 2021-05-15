@@ -14,11 +14,11 @@ router.use("*", (req, res, next) => {
 // add single router files
 const routeFiles = ["user"];
 routeFiles.forEach((route) => {
+  let routeFile = require(`./${route}.js`);
   try {
-    let routeFile = require(`./${route}.js`);
     router.use(`/${route}`, routeFile);
   } catch (err) {
-    console.log(`\u001b[31m[ERR] Router file ${route}.js does not exists.`);
+    console.log(`\u001b[31m[ERR] Router file ${routeFile} does not exists.`);
   }
 });
 
