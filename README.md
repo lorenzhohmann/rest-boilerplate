@@ -18,9 +18,8 @@ This repository is a boilerplate for a Rest API with Node.js. There are some oth
 
 1. clone the repository with `git clone https://github.com/lorenzhohmann/rest-boilerplate.git`
 2. navigate in the directory and execute `npm install`
-3. Rename _\_.gitignore_ to _.gitignore_
-   3.1 _Optional: When you're using Visual Studio Code, you can install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) for testing your routes._
-4. Start coding!
+3. Rename _\_.gitignore_ to _.gitignore_ (_Optional: When you're using Visual Studio Code, you can install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) for testing your routes._)
+5. Start coding!
 
 ## Planed 📅
 
